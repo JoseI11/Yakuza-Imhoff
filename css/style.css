@@ -1,0 +1,96 @@
+*{ 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*************************HEADER del Index******************************************/
+.navbar .navbar-nav .nav-link:hover{
+    background-color: red;
+   
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+    margin-top: 0;
+}
+.dropdown .dropdown-menu{
+    display: none;
+}
+.contenedorImagen{
+    display: flex;
+    justify-content: center;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    filter: invert(108%);
+  }
+/*************************************************************************************/
+/*************************MAIN del Index**********************************************/
+body{
+    background-color: crimson;
+    background-image: linear-gradient(to right, crimson , yellow);
+}
+.tituloIndex{
+    display: flex;
+    justify-content: center;
+}
+.list-group{
+    text-align: center;
+    font-size: 1rem;
+}
+.list-group a{
+    color: red;
+    font-size: 1.2rem;
+}
+
+.list-group a:hover{
+    background-color: aqua;
+}
+/********************************************************************************************/
+/**********************************MAIN de la pagina historia*********************************/
+table{
+    position: relative;
+    top: 12px;
+}
+tr{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+}
+td{
+    text-align:center;
+    vertical-align: middle;
+    
+}
+p{
+    text-align: center;
+}
+.prueba{
+    width: 50%;
+}
+/************************************************************************************************/
+/*************************************MAIN de la pagina principales******************************/
+.tituloPrincipal{
+    display: flex;
+    justify-content: center;
+}
+.texto{
+    color: black;
+    font-weight: bold;
+}
+.textoMasa{
+    color: red;
+    font-weight: bold;
+}
+.textoImagenblanco{
+    font-weight: bold;
+}
+/************************************************************************************************/
+/**************************MAIN de la pagina Contacto*********************************************/
+.tituloContacto{
+    display: flex;
+    justify-content: center;
+}
+.label{
+    font-size: 1.2rem;
+}
+
+/*************************************************************************************************/

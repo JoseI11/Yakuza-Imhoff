@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Inicio</title>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-primary">
+      <div class="container-fluid">
+        <a class="navbar-brand"><img src="./assets/imagenes/Yakuza_logo.jpg" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+            <li class="nav-item fs-5">
+              <a class="nav-link active text-light " aria-current="page" href="#">Inicio</a>
+            </li>
+            <li class="nav-item fs-5 ">
+              <a class="nav-link text-light" href="./assets/paginas/historia.html">Historia</a>
+            </li>
+            <li class="nav-item fs-5">
+              <a class="nav-link text-light" href="#">Personajes</a>
+            </li>
+            <li class="nav-item dropdown fs-5">
+              <a class="nav-link dropdown-toggle text-light" href="" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Personajes
+              </a>
+              <ul class="dropdown-menu ">
+                <li><a class="dropdown-item " href="./assets/paginas/principales.html">Principales</a></li>
+                <li><a class="dropdown-item " href="./assets/paginas/secundarios.html">Secundarios</a></li>
+              </ul>
+            </li>
+            <li class="nav-item fs-5">
+              <a class="nav-link text-light" href="./assets/paginas/juegos.html">Juegos</a>
+            </li>
+
+            <li class="nav-item fs-5">
+              <a class="nav-link text-light" href="./assets/paginas/contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="contenedorImagen">
+      <img src="./assets/imagenes/Yakuza_logo-removebg-preview.png" alt="" srcset="">
+    </div>
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./assets/imagenes/Director-de-Yakuza-anuncia-nuevo-estudio-tras-dejar-Sega-768x402.jpg"
+            class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/imagenes/YAKUZA-KIWAMI-2_20180815185112-1536x864.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/imagenes/ZB2W2EDAWFEN7FA6HFWAZDKOI4.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Siguiente</span>
+      </button>
+    </div>
+    <h1 class="tituloIndex">Plataformas de juego</h1>
+    <div class="list-group">
+
+      <a href="#" class="list-group-item list-group-item-action">PlayStation 2</a>
+      <a href="#" class="list-group-item list-group-item-action">PlayStation 3</a>
+      <a href="#" class="list-group-item list-group-item-action">PlayStation 4</a>
+      <a href="#" class="list-group-item list-group-item-action">PlayStation 5</a>
+      <a href="#" class="list-group-item list-group-item-action">PC</a>
+
+    </div>
+  </main>
+  <footer class="bg-dark text-center text-white">
+    <div class="container p-4">
+      <section class="mb-4">
+        <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/SEGA/" target="_blank"
+          role="button"><i class="fab fa-facebook-f"></i></a>
+        <a class="btn btn-outline-light btn-floating m-1" href="https://twitter.com/RGGStudio" target="_blank"
+          role="button"><i class="fab fa-twitter"></i></a>
+        <a class="btn btn-outline-light btn-floating m-1" href="https://www.youtube.com/user/SegaAmerica"
+          role="button"><i class="fab fa-youtube"></i></a>
+      </section>
+      <section class="">
+        <form action="">
+          <div class="row d-flex justify-content-center">
+            <div class="col-auto">
+              <p class="pt-2">
+                <strong>Suscribete para recibir novedades</strong>
+              </p>
+            </div>
+            <div class="col-md-5 col-12">
+              <div class="form-outline form-white mb-4">
+                <input type="email" id="form5Example21" class="form-control" />
+                <label class="form-label" for="form5Example21">Ingresa tu email</label>
+              </div>
+            </div>
+            <div class="col-auto">
+              <button type="submit" class="btn btn-outline-light mb-4">
+                Subscribe
+              </button>
+            </div>
+          </div>
+        </form>
+      </section>
+    </div>
+  </footer>
+  <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
