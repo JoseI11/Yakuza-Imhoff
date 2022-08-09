@@ -8,6 +8,7 @@
     background-color: red;
    
 }
+
 .dropdown:hover .dropdown-menu{
     display: block;
     margin-top: 0;
@@ -54,7 +55,9 @@ tr{
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.2rem;
+    vertical-align: middle;
 }
+
 td{
     text-align:center;
     vertical-align: middle;
@@ -65,6 +68,24 @@ p{
 }
 .prueba{
     width: 50%;
+}
+/************************************************************************************************/
+/************************************MAIN de la pagina juegos************************************/
+.card-title{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.btn >.btn-primary{
+    justify-content: center;
+}
+.tituloJuegos{
+    display: flex;
+    justify-content: center;
+}
+.card {
+    margin-left: 15px;
+    background-color: aquamarine;
 }
 /************************************************************************************************/
 /*************************************MAIN de la pagina principales******************************/
@@ -91,6 +112,26 @@ p{
 }
 .label{
     font-size: 1.2rem;
+    font-weight: bold;
 }
+.form-control{
+    background-color: plum;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+}
+.opinion{
+    background-color: plum;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+}
+.contenedor{
+    display: flex;
 
+}
+.btn .btn-primary{
+    width: 50%;
+}
+form{
+    margin-bottom: 10px;
+}
 /*************************************************************************************************/
